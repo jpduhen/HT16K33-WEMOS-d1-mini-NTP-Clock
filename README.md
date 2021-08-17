@@ -18,4 +18,4 @@ On the portal-webpage (192.168.4.1) select the desired WiFi network you would li
 You can check serial monitor for connection and debug data.
 Very shortly after connecting, the local time adjusted for Daylight saving will be displayed.
 
-This example uses CET, see scetch comments on how to adjust the time/DST settings for your locality.
+This example uses CET, see sketch comments on how to adjust the time/DST settings for your locality.
