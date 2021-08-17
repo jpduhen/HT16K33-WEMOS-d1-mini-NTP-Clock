@@ -13,8 +13,9 @@ Display | WEMOS
   
 Just bending the pins (look out for shorting!) will get you a nice sturdy triangle-standing clock
 
-After flashing the WEMOS d1 mini, connect to the NTP-klok_AP with password: NTP-klok
-Select the desired WiFi network you would like to connect to and enter the appropiate credentials.
-Very shortly the local time adjusted for Daylight saving will be displayed.
+After flashing the WEMOS d1 mini, connect your phone/pc to the NTP-klok_AP with password: NTP-klok
+On the portal-webpage (192.168.4.1) select the desired WiFi network you would like your clock to connect to and enter the appropiate credentials.
+You can check serial monitor for connection and debug data.
+Very shortly after connecting, the local time adjusted for Daylight saving will be displayed.
 
-See scetch for adjusting the DST settings for your locality.
+This example uses CET, see scetch comments on how to adjust the time/DST settings for your locality.
